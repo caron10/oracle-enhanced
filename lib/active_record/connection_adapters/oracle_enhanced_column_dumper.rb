@@ -51,5 +51,5 @@ module ActiveRecord #:nodoc:
 end
 
 ActiveRecord::ConnectionAdapters::ColumnDumper.class_eval do
-  include ActiveRecord::ConnectionAdapters::OracleEnhancedColumnDumper
+  #include ActiveRecord::ConnectionAdapters::OracleEnhancedColumnDumper
 end
